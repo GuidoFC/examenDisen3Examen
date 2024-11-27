@@ -1,0 +1,18 @@
+services:
+  
+  boostrap:
+    build:
+      context: .
+      dockerfile: instalacion4/Dockerfile
+    tty: true
+    stdin_open: true
+    volumes:
+      # primero creamos el contenedor asi
+      - .\instalacion4\vite:/app
+      # después de ejecutar el comando npm run dev volvemos a levantar el contendor usando este volumnen
+      #- .\vite\vite-project:/app
+    
+    # para Vite es importante poner un puerto
+    ports:
+      - "2526:8888"
+      - "8786:5173"
