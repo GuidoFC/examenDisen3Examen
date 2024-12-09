@@ -55,6 +55,7 @@ $secondary: blue;
 @import "../../node_modules/bootstrap/scss/nav";
 @import "../../node_modules/bootstrap/scss/modal";
 @import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/mixins/border-radius";
 
 
 
@@ -66,5 +67,5 @@ $secondary: blue;
 
 // 8. Add additional custom code here
 
-//@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 

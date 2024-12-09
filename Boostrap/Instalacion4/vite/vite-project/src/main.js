@@ -8,7 +8,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-  <div>
+  <div >
     <a href="https://vite.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
@@ -33,7 +33,7 @@ document.querySelector('#app').innerHTML = `
     
     <button class="btn btn-outline-primary btn-lg text-danger"> Boto1 </button>
     
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <nav class="navbar navbar-expand-lg bg-body-tertiary position-absolute position-sticky top-0">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,7 +104,61 @@ document.querySelector('#app').innerHTML = `
     </div>
   </div>
 </div>
+<br>
 
+    <div >
+        <div class="bg-danger border border-success border-2 my-3" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-contain  " src="../assests/hombre.jpg" alt="">
+        </div>
+    
+     <div class="bg-danger border border-success border-2 ms-5" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-cover " src="../assests/hombre.jpg" alt="">
+        </div>
+        
+     <div class="bg-danger border border-success border-2 p-2" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-fill " src="../assests/hombre.jpg" alt="">
+        </div>
+        
+        <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+       <div class="bg-danger border border-success border-2" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-none " src="../assests/hombre.jpg" alt="">
+        </div>
+        
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+         <div class="bg-danger border border-success border-2 ms-xxl-5 ms-lg-4 ms-md-2 ms-sm-1" style=" width: 100px; height: 100px">
+        <img style="height: 100px; width: 100px" class="object-fit-sm-scale " src="../assests/hombre.jpg" alt="">
+        </div>
+        
+        
+    </div>
 
   </div>
 `
